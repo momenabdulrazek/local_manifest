@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="momen" fetch="https://github.com/momenabdulrazek" />
-<remote name="celhex" fetch="https://github.com/clhexftw" />
-<remote name="dog" fetch="https://github.com/dogpoopy" />
+<remote name="momen" fetch="https://github.com/momenabdulrazek/" />
+<remote name="celhex" fetch="https://github.com/clhexftw/" />
+<remote name="dog" fetch="https://github.com/dogpoopy/" />
 
   <project path="device/xiaomi/vayu" remote="momen" name="device_xiaomi_vayu_udc" revision="matrixx-udc" />
   <project path="vendor/xiaomi/vayu" remote="celhex" name="android_vendor_xiaomi_vayu" revision="twelve" />
