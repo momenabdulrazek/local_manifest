@@ -2,10 +2,12 @@
 <manifest>
 
 <remote name="lineage" fetch="https://github.com/LineageOS/" />
-<remote name="celhex" fetch="https://github.com/clhexftw/" />    
+<remote name="celhex" fetch="https://github.com/clhexftw/" /> 
+<remote name="sm8150" fetch="https://github.com/xiaomi-sm8150-devs/" />
   <project path="device/xiaomi/vayu" remote="lineage" name="android_device_xiaomi_vayu" revision="lineage-21" />
   <project path="vendor/xiaomi/vayu" remote="celhex" name="android_vendor_xiaomi_vayu" revision="twelve" />
   <project path="kernel/xiaomi/vayu" remote="lineage" name="android_kernel_xiaomi_vayu" revision="lineage-20" />
   <project path="device/xiaomi/sm8150-common" remote="lineage" name="android_device_xiaomi_sm8150-common" revision="lineage-21" />
   <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" revision="lineage-21" />
+  <project path="vendor/xiaomi/sm8150-common" remote="sm8150" name="proprietary_vendor_xiaomi_sm8150-common" revision="lineage-20" />
 </manifest>
