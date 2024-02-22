@@ -3,7 +3,9 @@
 <remote name="momen" fetch="https://github.com/momenabdulrazek/" />
 <remote name="vend" fetch="https://github.com/clhexftw/" /> 
 <remote name="kern" fetch="https://github.com/dogpoopy/" />
+<remote name="hardware" fetch="https://github.com/Evolution-X/" /> 
   <project path="device/xiaomi/vayu" remote="momen" name="device_xiaomi_vayu_udc" revision="matrixx-udc" />
   <project path="vendor/xiaomi/vayu" remote="vend" name="android_vendor_xiaomi_vayu" revision="twelve" />
   <project path="kernel/xiaomi/vayu" remote="kern" name="android_kernel_xiaomi_vayu" revision="main" />
+  <project path="hardware/xiaomi" remote="hardware" name="hardware_xiaomi" revision="udc" />
 </manifest>
