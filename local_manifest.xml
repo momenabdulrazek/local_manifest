@@ -2,7 +2,8 @@
 <manifest>
 <remote name="momen" fetch="https://github.com/momenabdulrazek/" />
 <remote name="pro" fetch="https://github.com/dogpoopy/" />
-  <project path="device/xiaomi/vayu" remote="momen" name="device_xiaomi_vayu_udc" revision="matrixx-udc" />
+<remote name="tree" fetch="https://github.com/MahmoudMomenWorld/" />
+  <project path="device/xiaomi/vayu" remote="tree" name="device_xiaomi_vayu_mat" revision="matrixx-udc" />
   <project path="vendor/xiaomi/vayu" remote="momen" name="android_vendor_xiaomi_vayu" revision="main" />
   <project path="kernel/xiaomi/vayu" remote="pro" name="android_kernel_xiaomi_vayu" revision="main" />
   <project path="vendor/xiaomi/vayu-miuicamera" remote="pro" name="vendor_xiaomi_vayu-miuicamera" revision="main" />
