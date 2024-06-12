@@ -6,7 +6,7 @@
 <remote name="ch" fetch="https://github.com/chiteroman/" />
   <project path="device/xiaomi/vayu" remote="momen" name="device_xiaomi_vayu_udc" revision="matrixx-udc" />
   <project path="vendor/xiaomi/vayu" remote="momen" name="android_vendor_xiaomi_vayu" revision="main" />
-  <project path="kernel/xiaomi/vayu" remote="ch" name="kernel_vayu_stock" revision="main" />
+  <project path="kernel/xiaomi/vayu" remote="ch" name="kernel_vayu_stock" revision="stock" />
   <project path="hardware/xiaomi" remote="hard" name="hardware_xiaomi" revision="udc" />
   <project path="vendor/lineage-priv/keys" remote="momen" name="my_sign_test_keys" revision="main" />
 </manifest>
