@@ -12,5 +12,5 @@
   <project path="vendor/xiaomi/vayu-miuicamera" remote="momen" name="vendor_xiaomi_vayu-miuicamera" revision="vayu" />
   <project path="kernel/xiaomi/vayu" remote="bag" name="kernel_xiaomi_vayu" revision="14-derp" />
   <project path="hardware/xiaomi" remote="hard" name="android_hardware_xiaomi" revision="lineage-21" />
-  <project path="vendor/lineage-priv/keys" remote="momen" name="my_sign_test_keys" revision="main" />
+  <project path="vendor/lineage-priv/keys" remote="momen" name="my_sign_test_keys" revision="QPR3" />
 </manifest>
